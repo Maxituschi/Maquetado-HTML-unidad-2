@@ -1,0 +1,219 @@
+/* esto es para cambiar el estilo de la letra*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+*{}
+
+/*con el *{} se lo coloco a todo el documento*/
+
+/*color de nabvar*/
+.navbar {
+    background-color: #4343a4 !important;
+    height: 8rem;
+}
+
+/*estilos del contenedor de redes*/
+.list-group.list-group-horizontal { 
+    margin-top: -2rem;
+}
+
+   
+
+/* estilos de nabvar (logo) */
+.navbar-brand {
+    margin-top: -2rem;
+} 
+
+
+/* Color de los iconos */
+.list-group-item {
+color: #0d6efd;
+}
+
+
+
+/* animacion de los iconos */
+/*redes*/
+i.fa-brands.fa-github.fa-xl:hover, 
+i.fa-brands.fa-facebook.fa-xl:hover,
+i.fa-solid.fa-envelope.fa-xl:hover,
+i.fa-solid.fa-user-lock.fa-lg:hover,
+.fa-solid.fa-user.fa-lg:hover
+{
+   transform: scale(1.25);
+}
+ 
+section.info {
+    background-image: url(../img/pexels-philippe-donn-1169754.jpg) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 25rem;
+    color: #7dc0c0;
+    font-family: cursive;
+    margin-top: 8rem;
+    
+}
+
+/*foto perfil*/
+.rounded-circle.w-75 {
+    margin-top: 3rem;
+    margin-left: 1rem;
+    
+}
+
+/* alineado descripcion sobre mi*/
+h3.informacion {
+    margin-top: 7rem;
+    margin-left: 3rem;
+}
+#historia{
+    font-size:1.2rem;
+}
+
+/* configutacion del boton sobre mi */
+#btn1 {
+    margin-top: 2rem;
+}
+#btn2 {
+    margin-bottom: 11rem;
+    margin-left: 0.7rem;
+}
+
+
+.experiencia, 
+.educacion,
+.habilidades,
+.proyectos{   
+    border-style: solid;
+    border-width: 0.15rem;
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    padding-left: 1rem;
+    padding-top: 0.5rem; 
+    padding-bottom: 1.4rem;
+}
+
+/*Margenes de las seccion*/
+#edu, #habil, #exper, #proyec{
+    margin-left: -4rem;
+     
+}
+   
+/* Estilos de los titulos de las secciones */
+h4{
+    color: #7dc0c0;
+    font-family: cursive;
+    background-color: #d6d6f16f;
+    padding-left: 0.3rem;
+    border-radius: 0.3rem;
+}    
+
+/*  estilos de los botones de edicion */
+ #exp {
+    
+     padding-top: 2rem;
+     padding-right: 1rem  ;
+     padding-left: 1.5rem;
+     float: left;
+     align-content: center;        
+ }  
+#educ, #pro, #hab {
+    padding-left: 0.5rem;
+    padding-top: 2rem;
+    float: left;
+    align-content: center; 
+}
+
+.nivel{
+    font-size: 2rem;
+}   
+
+
+/*estilos del footer*/
+.footer {
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
+    background-color: #4343a4;
+    height: 4rem;
+     
+}
+#print{
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;       
+    --bs-list-group-item-padding-x: 1.7rem;
+}
+#arriba{
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    --bs-list-group-item-padding-x: 1rem;
+    /* --bs-list-group-item-border-radius: 0.375rem; */
+    /* border-bottom-left-radius: 0.375rem; */
+    /* --bs-btn-close-black-border-radius: 0.375rem; */
+
+}
+
+
+/* modal de bienvenida */
+
+
+/* Estilos logos */
+ul{
+    list-style: none;
+}
+
+
+#logoargentina{
+    height: 60px;
+    width: 90px;
+    margin-top: 2.3rem;
+    margin-left: -1rem;
+}
+#primerlogo{
+    height: 60px;
+    width: 90px;
+    margin-top: 2.3rem;
+    margin-left: -1rem;  
+}
+#segundologo{
+    height: 70px;
+    width: 70px;
+    margin-top: 1.7rem; 
+    margin-left: -0.3rem;
+}
+#tercerlogo{
+    height: 60px;
+    width: 60px;
+    margin-top: 1.5rem; 
+    
+}
+#cuartologo{
+    height: 70px;
+    width: 60px;
+    margin-top: 1.5rem; 
+}
+#quintologo{
+    height: 60px;
+    width: 110px;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+#sextologo{
+    height: 40px;
+    width: 110px;
+    margin-top: 2.2rem;
+    margin-left: 3rem;
+}
+#septimologo{    
+    height: 45px;
+    width: 45px;
+    margin-top: 2.3rem; 
+    margin-left: 1rem;   
+}
+#octavologo{    
+    height: 45px;
+    width: 45px;
+    margin-top: 1.3rem; 
+    margin-left: 1rem;   
+}
